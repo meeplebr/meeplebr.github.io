@@ -1,6 +1,6 @@
 ---
-title: Your awesome title
-timezone: UTC
+title: MEEPLE BR JOGOS
+timezone: America/Sao_Paulo
 collections:
   posts:
     title: Posts
@@ -14,10 +14,10 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: ''
-url: ''
-twitter_username: jekyllrb
-github_username: jekyll
+baseurl: 
+url: 
+twitter_username: 
+github_username: meeplebr
 markdown: kramdown
 theme: minima
 gems:
