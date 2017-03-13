@@ -1,0 +1,274 @@
+body *{
+    cursor: default;
+}
+
+#home{
+    height: 70vh;
+}
+
+#home .logo{
+    position: absolute;
+    margin: 30px 0 0 30px;
+}
+
+#home .logo svg{
+    height: 170px;
+    width: 105px;
+}
+
+#home .logo .intro{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    margin-left: 20px;
+    color: #444;
+}
+
+#home .logo .intro span:first-child{
+    width: 100%;
+    display: block;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+#home .logo .intro span:last-child{
+    font-size: 2.7em;
+    line-height: 34px;
+    font-weight: 500;
+}
+
+#home nav{
+    float: right;
+    margin: 50px 30px 0 0;
+}
+
+#home nav a{
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #8dc540;
+    cursor: pointer;
+}
+
+#home .center{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#home .center button{
+    border: none;
+    background: #8dc540;
+    color: #FFF;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    border-radius: 2px;
+    display: block;
+    margin: 0 10px;
+    display: inline-block;
+    width: :;0px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+}
+
+#home .center button img{
+    height: 23px;
+    margin-left: 10px;
+}
+
+#home .center button:hover{
+    background:#5e9313;
+    cursor: pointer;
+}
+
+#home .center button:last-child{
+    background: #FAFAFA;
+    color: #333;
+    border: 1px solid #333;
+}
+
+#home .center button:last-child:hover{
+    background: #333;
+    color: #fff;
+}
+
+#home .center h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4em;
+    color: #222;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#home .center h1 + span{
+    display: block;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 60px;
+}
+
+#home .center h1 + span em{
+    font-style: normal;
+    font-weight: 800;
+}
+
+#jogos .banner{
+    height: 250px;
+}
+
+#jogos .banner img{
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+#parallax{
+    background-image: url('background-parallax.png');
+    height: 500px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#parallax .relative{
+    position: relative;
+    height: 600px;
+}
+
+#parallax .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    -webkit-display: flex;
+}
+
+#parallax .container .box{
+    width: 100%;
+    background: #FAFAFA;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 20px;
+    width: 250px;
+    text-align: justify;
+}
+
+#parallax .container .box h4{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+#blog h1{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+#blog + .page-content{
+    height: 450px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+#blog + .page-content > .wrapper{
+    max-width: calc(1200px - (30px * 2)) !important;
+    height: 450px;
+    overflow-y: hidden;
+}
+
+.post-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-list li{
+    margin-bottom: 50px;
+    background: #FAFAFA;
+    box-shadow: 1px 2px 5px rgba(0,0,0, .1);
+    padding: 30px;
+    width: calc(100% - 860px);
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+}
+
+.post-list li:hover{
+    background: #8dc540;
+    cursor: pointer;
+}
+
+.post-list li a{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-list li:hover a,
+.post-list li:hover span{
+    color: #FFF;
+    cursor: pointer;
+}
+
+#vejamais{
+    position: relative;
+}
+
+#vejamais .smoke{
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+    max-width: calc(1200px - (30px * 2)) !important;
+    -webkit-box-shadow: 0 1px 15px 12px #FFF;
+    -moz-box-shadow: 0 1px 15px 12px #FFF;
+    box-shadow: 0 1px 15px 12px #FFF;
+    z-index: 999;
+    text-align: center;
+}
+
+#vejamais .smoke button{
+    border: none;
+    background: #8dc540;
+    color: #FFF;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    border-radius: 2px;
+    display: block;
+    margin: 0 10px;
+    display: inline-block;
+    width: :;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    margin-top: 50px;
+    background: #FAFAFA;
+    color: #333;
+    border: 1px solid #333;
+}
+
+#loja{
+    margin-top: 150px;
+    background-image: url('parallax.png');
+    background-color: #222;
+    height: 700px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.teste{
+    height: 80vh;
+}
