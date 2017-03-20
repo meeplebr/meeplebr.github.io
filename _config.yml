@@ -10,6 +10,7 @@ collections:
     output: true
 email: atendimento@meeplebrjogos.com.br
 description: 'A Meeple BR Jogos é uma editora e publicadora de boardgames, nacionais e internacionais. Nascida como uma produtora de componentes para jogos, iniciou a publicação de jogos em 2016.'
+
 baseurl: 
 url: 
 twitter_username: 
