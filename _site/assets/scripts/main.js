@@ -21,5 +21,9 @@ $(document).ready(function(){
       
       $('#btnloja').on('click', function(){
           window.open('https://www.lojameeplebrjogos.com.br/', '_blank');
+      });
+      
+      $('#voltarsite').on('click', function(){
+          window.open('https://meeplebr.com.br/', '_blank');
       })
 })
