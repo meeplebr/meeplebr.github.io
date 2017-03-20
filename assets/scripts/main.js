@@ -24,6 +24,6 @@ $(document).ready(function(){
       });
       
       $('#voltarsite').on('click', function(){
-          window.open('https://meeplebr.com.br/', '_blank');
+          window.open('https://meeplebr.com.br');
       })
 })
