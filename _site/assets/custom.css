@@ -460,8 +460,17 @@ body *{
 }
 
 
+#disqus_thread{
+    padding: 0 300px;
+}
+
+
 
 @media screen and (max-width: 480px){
+    
+    #disqus_thread{
+    padding: 0 20px;
+}
     
     #home {
     height: 85vh;
@@ -605,3 +614,4 @@ body *{
     background: #222;
     color: #fff;
 }
+
