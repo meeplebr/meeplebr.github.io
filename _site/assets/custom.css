@@ -573,3 +573,35 @@ body *{
 }
 
 
+.blog-head{
+    height: 100px;
+    background: #222;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url('/assets/fundo_blog.png');
+}
+
+#voltarsite{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #FFF;
+    border: 1px solid #222;
+    padding: 20px 30px;
+    font-size: 1.3em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    border-radius: 2px;
+    transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    margin-bottom: 30px;
+}
+
+#voltarsite:hover{
+    cursor: pointer;
+    background: #222;
+    color: #fff;
+}
