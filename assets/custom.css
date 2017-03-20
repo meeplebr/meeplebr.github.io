@@ -50,6 +50,7 @@ body *{
 }
 
 #home .center{
+        width: 100%;
     position: absolute;
     top: 45%;
     left: 50%;
@@ -125,7 +126,7 @@ body *{
 
 #parallax{
     background-image: url('background-parallax.png');
-    height: 500px;
+    height: 550px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -134,7 +135,7 @@ body *{
 
 #parallax .relative{
     position: relative;
-    height: 600px;
+    height: 650px;
 }
 
 #parallax .container{
@@ -155,6 +156,12 @@ body *{
     margin: 0 20px;
     width: 250px;
     text-align: justify;
+}
+
+#parallax .container .box .icon img {
+    height: 40px;
+    display: block;
+    margin: 0 auto 20px auto;
 }
 
 #parallax .container .box h4{
@@ -192,9 +199,10 @@ body *{
 
 .post-list li{
     margin-bottom: 50px;
+    border: 1px solid #8dc540;
     background: #FAFAFA;
     box-shadow: 1px 2px 5px rgba(0,0,0, .1);
-    padding: 30px;
+    padding: 29px;
     width: calc(100% - 860px);
     margin-left: 20px;
     margin-right: 20px;
@@ -211,6 +219,7 @@ body *{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    color: #7AB429;
 }
 
 .post-list li:hover a,
@@ -254,6 +263,12 @@ body *{
     background: #FAFAFA;
     color: #333;
     border: 1px solid #333;
+}
+
+#vejamais .smoke button:hover{
+    cursor: pointer;
+    background: #111;
+    color: #FFF;
 }
 
 #loja{
@@ -347,6 +362,11 @@ body *{
     font-weight: 700;
 }
 
+#loja .box button:hover{
+    cursor: pointer;
+    background: #3d6900;
+}
+
 
 #loja .box button{
     border: none;
@@ -375,6 +395,181 @@ body *{
     
 }
 
+.floating{
+	-webkit-animation: float;
+	-moz-animation-name: float;
+	-webkit-animation-duration: 4s;
+	-moz-animation-duration: 4s;
+	-webkit-animation-iteration-count: infinite;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-timing-function: ease-in-out;
+}
 
+@-webkit-keyframes float{
+	from {-webkit-transform: translate(0,0);}
+	65% {-webkit-transform: translate(0,15px);}
+	to {-webkit-transform: translate(0,-0);}
+}
+
+@-moz-keyframes float{
+	from {-moz-transform: translate(0,0);}
+	65% {-moz-transform: translate(0,15px);}
+	to {-moz-transform: translate(0,-0);}
+}
+
+
+#line{
+    width: 100%;
+    height: 3px;
+    background: #8dc540;
+}
+
+
+
+@media screen and (max-width: 1440px){
+    #loja .container .box{
+        width: calc(100% - 1080px);    
+    }
+    
+}
+
+@media screen and (max-width: 1366px){
+#loja .container .box {
+    width: calc(100% - 920px);
+}
+
+}
+
+@media screen and (max-width: 1920px) and (min-width: 1920px){
+#loja .container .box {
+    width: calc(100% - 1425px);
+}
+
+#home{
+    height: 55vh;
+}
+
+#home .center {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+}
+
+
+
+@media screen and (max-width: 480px){
+    
+    #home {
+    height: 85vh;
+}
+    #home .logo svg {
+        height: 100px;
+        width: 60px;
+    }
+    
+    #home .logo {
+        position: absolute;
+        margin: 0 0 0 10px;
+    }
+    
+   #home .logo .intro {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 24px;
+    margin-left: 10px;
+    color: #444;
+}
+    
+    #home .logo .intro span:first-child {
+        width: 100%;
+        display: block;
+        font-size: 1em;
+        font-weight: 300;
+    }
+    
+    #home .logo .intro span:last-child {
+        font-size: 1.4em;
+        line-height: 5px;
+        font-weight: 500;
+    }
+    
+    #navbar{
+        display: none;
+    }
+    
+    #home .center h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: #222;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#home .center {
+    position: inherit;
+    transform: none;
+    padding-top: 100px;
+    
+}
+
+#home .center button{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#jogos .banner{
+    display: none;
+}
+
+#parallax .container{
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    transform: none;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#parallax .container .box{
+        display: block;
+        margin: 20px auto;
+    
+}
+
+#parallax{
+    height: 100%;
+    padding: 10px 0;
+}
+
+#parallax .relative{
+    height: 100%;
+}
+
+#blog + .page-content > .wrapper{
+    
+    max-width: 50%;
+}
+
+.post-list li{
+    width: 100%;
+}
+
+#loja .container .box{
+    width: 100%;
+}
+
+.email, .cnpj{
+    display: none;
+}
+.post-list li {
+    width: 65%;
+}
+
+}
 
 

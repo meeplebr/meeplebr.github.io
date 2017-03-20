@@ -4,6 +4,9 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Welcome to Jekyll!</title>
   <meta name="description" content="You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...">
@@ -14,14 +17,32 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
   
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="assets/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
+  <meta property="og:title" content="Meeple BR Jogos - Especializada em Boardgames" />
+  <meta property="og:image" content="http://meeplebr.com.br/assets/facebook.png"/>
+  <meta property="og:image:secure_url" content="https://meeplebr.com.br/assets/facebook.png"/>
+  <meta property="og:description" content="A Meeple BR Jogos é uma editora e publicadora de board games, nacionais e internacionais." />
 </head>
 
   <body>
 
-    <section id="home">
+    <div id="line"></div>
+<section id="home">
     
     <div class="logo">
-        <svg xmlns="http://www.w3.org/2000/svg" width="711pt" height="829pt" viewBox="0 0 711 829" version="1.1">
+        <svg id="logomeeple" xmlns="http://www.w3.org/2000/svg" width="711pt" height="829pt" viewBox="0 0 711 829" version="1.1">
             <g id="#f7f8f6fd">
             <path fill="#f7f8f6" opacity="1.00" d=" M 355.37 8.51 C 359.91 6.73 365.30 7.85 368.87 11.14 C 374.95 16.65 377.44 25.60 375.78 33.55 C 375.23 36.78 375.84 40.24 374.27 43.26 C 370.44 51.90 357.95 56.01 350.40 49.70 C 346.67 46.99 346.07 42.18 345.14 38.00 C 343.89 31.36 343.53 24.24 346.10 17.85 C 347.76 13.67 350.96 9.89 355.37 8.51 M 355.08 16.00 C 354.41 25.44 354.73 34.90 355.04 44.35 C 358.37 43.43 361.66 42.30 364.87 41.00 C 365.94 35.22 366.61 29.23 365.60 23.40 C 364.48 18.55 359.66 16.26 355.08 16.00 Z"/>
             <path fill="#f7f8f6" opacity="1.00" d=" M 400.39 26.63 C 411.02 23.29 423.09 35.51 418.60 46.03 C 415.54 51.82 410.97 56.71 406.01 60.94 C 402.72 63.48 399.47 66.79 395.09 67.09 C 384.78 68.16 375.02 56.12 379.73 46.47 C 384.78 38.33 391.86 31.04 400.39 26.63 M 392.06 44.95 C 389.81 47.79 387.57 51.25 388.04 55.05 C 390.97 57.98 395.98 57.47 398.98 54.84 C 403.93 50.90 407.42 45.45 412.20 41.29 C 409.42 39.42 406.93 37.13 404.05 35.39 C 399.59 37.84 395.52 41.19 392.06 44.95 Z"/>
@@ -68,24 +89,24 @@
         </div>
     </div>
     <nav id="navbar">
-        <a href="#">LOJA</a>
-        <a href="#">QUEM SOMOS</a>
-        <a href="#">BLOG</a>
-        <a href="#">CONTATO</a>
+        <a href="https://www.lojameeplebrjogos.com.br/" target="_blank">LOJA</a>
+        <a href="#parallax">QUEM SOMOS</a>
+        <a href="#blog">BLOG</a>
+        <a href="#loja">PRODUTOS</a>
     </nav>
 
     <div class="center">
         <h1>Desafie seus amigos!</h1>
         <span>A <em>Meeple BR Jogos</em> é uma editora e publicadora de board games, nacionais e internacionais.</span>
-        <button type="button">Visite nossa loja virtual <img src="assets/dices.svg"></img></button>
-        <button type="button">Conheça nosso blog</button>
+        <button type="button" id="btnloja">Visite nossa loja virtual <img src="assets/dices.svg"></img></button>
+        <button type="button" data-anchor="blog">Conheça nosso blog</button>
     </div>
     
 </section>
 
 <section id="jogos">
     <div class="banner">
-        <img src="assets/banner.png"></img>
+        <img class="floating" src="assets/banner.png"></img>
     </div>
 </section>
 
@@ -94,16 +115,19 @@
         <div class="container">
             
             <div class="box">
+                <div class="icon"><img src="assets/home.svg" alt=""></div>
                 <h4>Sobre nós</h4>
                 Nascida como uma produtora de componentes para jogos, iniciou a publicação de jogos em 2016. Com títulos variados planejados para este ano, pretendemos oferecer uma experiência inovadora de diversão para o público brasileiro. 
             </div>
             
             <div class="box">
+                <div class="icon"><img src="assets/puzzle.svg" alt=""></div>
                 <h4>Sobre os jogos</h4>
                 Os Boardgames são definidos hoje como "jogos de tabuleiro modernos". Jogos com mecânicas diferentes, temáticas envolventes e divertidas, e principalmente, jogos para todos os gostos e complexidades.
             </div>
     
             <div class="box">
+                <div class="icon"><img src="assets/money.svg" alt=""></div>
                 <h4>Sobre revendas</h4>
                 Apoiamos a revenda de jogos de tabuleiro, incentivando a diversidade de opções das prateleiras de lojas especializadas. Tem interesse em revender nossos jogos? Envie um email para comercial@meeplebrjogos.com.br
             </div>
@@ -152,7 +176,7 @@
 
     <section id="vejamais">
     <div class="smoke">
-        <button type="button"> Ver todas as postagens </button>
+        <button type="button" id="vertudo"> Ver todas as postagens </button>
     </div>
 </section>
 
@@ -164,42 +188,42 @@
             <div class="desc">
                 <p><em>Dead Men Tell No Tales</em> é um jogo cooperativo de 2-5 jogadores, onde os jogadores representam uma tripulação de piratas que embarcam em um navio dominado e em chamas para pilhá-lo. Você precisará enfrentar o fogo e explosões, além dos inimigos ainda no navio. Mas este é um risco baixo pelo lucro!</p>
             </div>
-            <button type="button"><a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-de-tabuleiro-dead-men-tell-no-tales-em-portugues" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-de-tabuleiro-dead-men-tell-no-tales-em-portugues" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
         <div class="box">
             <div class="item"><img src="assets/fireteam.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Fireteam Zero</em> os jogadores são membros de uma unidade tática especial, que devem combater um enxame de criaturas mortais, a fim de descobrir e derrotar o mal supremo. Através de várias missões, que contam uma história aterradora, os jogadores devem cumprir os objetivos impostos a fim de progredir e trazê-los a um passo do confronto final.</p>
             </div>
-            <button type="button"><a href="" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/fireteam-zero-pre-venda" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
         <div class="box">
             <div class="item"><img src="assets/labyrinth.png" alt=""></div>
             <div class="desc">
                 <p>A edição de luxo de <em>Labyrinth</em> é feita em madeira MDF com acabamento de luxo, você tem o jogo de tabuleiro baseado no filme Labirinto : A magia do tempo, estrelado por David Bowie no papel de Jareth o rei dos duentes e Jennifer Connelly no papel de Sarah Willians. Uma parceria Meeple BR Jogos e Sony do Brasil!</p>
             </div>
-            <button type="button"><a href="" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/jims-henson-labyrinth-jogo-de-tabuleiro-edicao-de-colecionador" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
         <div class="box">
             <div class="item"><img src="assets/mombasa.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Mombasa</em>, os jogadores adquirem partes de companhias baseadas em Mombasa, Cape Town, Saint-Louis e Cairo, e propagarão postos de troca destas companhias através de toda África para ganharem mais dinheiro.</p>
             </div>
-            <button type="button"><a href="" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/mombasa-pre-venda" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
         <div class="box">
             <div class="item"><img src="assets/vudu.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Vudù</em>, os jogadores atuam como os mais perversos e maliciosos feiticeiros de todos os tempos, e eles querem usar suas maldições e magia negra para fazer a vida de seus inimigos impossível de superá-los!</p>
             </div>
-            <button type="button"><a href="" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-vudu-pt-br" target="_blank"></a><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
         <div class="box">
             <div class="item"><img src="assets/wrong.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Wrong Chemistry</em> você muda moléculas, a fim de ajudar estes cientistas. Este é um divertido e difícil jogo, fácil de aprender, com referências engraçadas para os elementos reais da tabela periódica.</p>
             </div>
-            <button type="button"><a href="" target="_blank">Confira!</a></button>
+            <a href="https://www.lojameeplebrjogos.com.br/jogo-de-tabuleiro-wrong-chemistry-em-portugues" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
         </div>
     </div>
     
@@ -220,6 +244,9 @@
              
              <span class="cnpj">Meeple BR Jogos de Tabuleiro LTDA - EPP - CNPJ: 22.558.292/0001-15 © Todos os direitos reservados</span>
 </section>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="assets/scripts/main.js"></script>
 
 
   </body>
