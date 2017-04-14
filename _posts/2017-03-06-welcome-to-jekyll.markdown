@@ -28,7 +28,7 @@ Então através dos nossos canais de comunicação você ganhou uma nova ferrame
 
 Sem maiores delongas vamos as boas noticias!
 
-Terraforming Mars estará em pré-venda com um preço especial! 
+Terraforming Mars está em pré-venda com um preço especial! 
 
 Tanto em nossa loja virtual (com direito a uma promo exclusiva!) quanto em nossos lojistas parceiros! Então, fique esperto! 
 
