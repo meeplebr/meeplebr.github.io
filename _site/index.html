@@ -9,7 +9,7 @@
   <meta name="theme-color" content="#ffffff">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MEEPLE BR JOGOS</title>
-  <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search resu...">
+  <meta name="description" content="A Meeple BR Jogos é uma editora e publicadora de boardgames, nacionais e internacionais. Nascida como uma produtora de componentes para jogos, iniciou a publ...">
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="stylesheet" href="/assets/custom.css">
   <link rel="canonical" href="http://0.0.0.0:8080/">
@@ -285,6 +285,20 @@
     </div>
 </section>
 
+<section id="embreve">
+    <h1>Confira nossos futuros lançamentos</h1>
+    <div class="container">
+    <div id="mars" class="preview">
+        <img src="assets/mars.png" alt="">
+        <a href="#">EM BREVE</a>
+    </div>
+    <div id="lab" class="preview">
+        <img src="assets/lab.png" alt="">
+        <a href="https://www.lojameeplebrjogos.com.br/jims-henson-labyrinth-jogo-de-tabuleiro-edicao-de-colecionador" target="_blank">CONFIRA</a>
+    </div>
+    </div>
+</section>
+
 <section id="loja">
     <h1>Produtos em destaque em nossa <em>loja virtual</em></h1>
     <div class="container">
@@ -293,42 +307,42 @@
             <div class="desc">
                 <p><em>Dead Men Tell No Tales</em> é um jogo cooperativo de 2-5 jogadores, onde os jogadores representam uma tripulação de piratas que embarcam em um navio dominado e em chamas para pilhá-lo. Você precisará enfrentar o fogo e explosões, além dos inimigos ainda no navio. Mas este é um risco baixo pelo lucro!</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-de-tabuleiro-dead-men-tell-no-tales-em-portugues" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="deadmen">SAIBA MAIS</button>
         </div>
         <div class="box">
             <div class="item"><img src="assets/fireteam.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Fireteam Zero</em> os jogadores são membros de uma unidade tática especial, que devem combater um enxame de criaturas mortais, a fim de descobrir e derrotar o mal supremo. Através de várias missões, que contam uma história aterradora, os jogadores devem cumprir os objetivos impostos a fim de progredir e trazê-los a um passo do confronto final.</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/fireteam-zero-pre-venda" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="fireteam">SAIBA MAIS</button>
         </div>
         <div class="box">
             <div class="item"><img src="assets/labyrinth.png" alt=""></div>
             <div class="desc">
                 <p>A edição de luxo de <em>Labyrinth</em> é feita em madeira MDF com acabamento de luxo, você tem o jogo de tabuleiro baseado no filme Labirinto : A magia do tempo, estrelado por David Bowie no papel de Jareth o rei dos duentes e Jennifer Connelly no papel de Sarah Willians. Uma parceria Meeple BR Jogos e Sony do Brasil!</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/jims-henson-labyrinth-jogo-de-tabuleiro-edicao-de-colecionador" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="labi">SAIBA MAIS</button>
         </div>
         <div class="box">
             <div class="item"><img src="assets/mombasa.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Mombasa</em>, os jogadores adquirem partes de companhias baseadas em Mombasa, Cape Town, Saint-Louis e Cairo, e propagarão postos de troca destas companhias através de toda África para ganharem mais dinheiro.</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/mombasa-pre-venda" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="mombasa">SAIBA MAIS</button>
         </div>
         <div class="box">
             <div class="item"><img src="assets/vudu.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Vudù</em>, os jogadores atuam como os mais perversos e maliciosos feiticeiros de todos os tempos, e eles querem usar suas maldições e magia negra para fazer a vida de seus inimigos impossível de superá-los!</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-vudu-pt-br" target="_blank"></a><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="vudu">SAIBA MAIS</button>
         </div>
         <div class="box">
             <div class="item"><img src="assets/wrong.png" alt=""></div>
             <div class="desc">
                 <p>Em <em>Wrong Chemistry</em> você muda moléculas, a fim de ajudar estes cientistas. Este é um divertido e difícil jogo, fácil de aprender, com referências engraçadas para os elementos reais da tabela periódica.</p>
             </div>
-            <a href="https://www.lojameeplebrjogos.com.br/jogo-de-tabuleiro-wrong-chemistry-em-portugues" target="_blank"><button type="button">CONFIRA EM NOSSA LOJA</button></a>
+            <button class="saibamais" name="wrong">SAIBA MAIS</button>
         </div>
     </div>
     
@@ -349,6 +363,90 @@
              
              <span class="cnpj">Meeple BR Jogos de Tabuleiro LTDA - EPP - CNPJ: 22.558.292/0001-15 © Todos os direitos reservados</span>
 </section>
+
+<modal id="deadmen" >
+    <div class="modal-content">
+        <p>Dead Men Tell no Tales</p>
+        <span>A cada rodada um novo tile é adicionado ao navio e uma carta é revelada para mostrar onde a tripulação de esqueletos está. Você então realiza uma serie de ações e utiliza o equipamento compartilhado para combater o fogo, sua própria fadiga, as armadilhas e os guardas. 
+
+Os combates são envolventes mas simples, sem precisar de mais do que uma rolagem de dados para resolver. Você estará constantemente aumentando sua fadiga e precisará gerenciar suas habilidades para continuar em frente.</span>
+        
+        <img src="assets/deeadp.png" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-de-tabuleiro-dead-men-tell-no-tales-em-portugues" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
+
+<modal id="fireteam" >
+    <div class="modal-content">
+        <p>Fireteam Zero</p>
+        
+        <span>Em Fireteam Zero os jogadores são membros de uma unidade tática especial, que devem combater um enxame interminável de criaturas mortais, a fim de descobrir e derrotar o mal supremo por trás delas. Através de várias missões, que contam uma história aterradora, os jogadores devem cumprir os objetivos impostos a fim de progredir e trazê-los a um passo do confronto final.</span>
+        <img src="assets/firep.jpg" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/fireteam-zero-pre-venda" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
+
+<modal id="mombasa" >
+    <div class="modal-content">
+        <p>Mombasa</p>
+        
+        <span>Mombasa é um jogo de estratégia estilo euro que se passa na África do século XVII, onde grandes riquezas e fortunas esperam o jogador através de múltiplos caminhos para a vitória. O Jogo possui um exclusivo estilo de rotação de cartas da mão.
+Compre e venda mercadorias, explore minas de diamantes e tenha sua escrituração sempre em dia.</span>
+        <img src="assets/mombasap.jpg" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/mombasa-pre-venda" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
+
+<modal id="vudu" >
+    <div class="modal-content">
+        <p>Vudú</p>
+        
+        <span>Em cada turno, você joga 5 dados, coleta ingredientes, escolhe se vai pegar novas cartas, novos itens ou conjurar uma magia. Cada magia tem uma maldição poderosa e trapaceira ligada a ela que obriga seu alvo a jogar de uma maneira específica, por exemplo, falar com sua língua para fora durante o resto do jogo, utilizar apenas uma mão, ou correr em volta da mesa a cada turno.
+
+Cada maldição fornece pontos quando você a conjura e muitos mais se seu alvo esquecer de obedecê-la ou ficar muito cansado para continuar. Colete o maior número de pontos de maldição possível para alcançar a pontuação final antes de todos os outros!</span>
+        <img src="assets/vudup.png" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/pre-venda-jogo-vudu-pt-br" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
+
+<modal id="wrong" >
+    <div class="modal-content">
+        <p>Wrong Chemistry</p>
+        
+        <span>Em rodadas alternadas, os jogadores tentam alterar as peças do tabuleiro, de tal modo que fiquem da mesma forma representada pelas cartas em suas mãos.
+As cartas representam os novos elementos que os jogadores descobriram. O jogo termina quando um jogador não pode mais comprar cartas. O vencedor é o jogador com mais pontos ou, em caso de empate, aquele que descobriu mais elementos que estão ao lado do outro na Tabela Periódica dos elementos.</span>
+        <img src="assets/wrongp.jpg" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/jogo-de-tabuleiro-wrong-chemistry-em-portugues" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
+
+<modal id="labi" >
+    <div class="modal-content">
+        <p>Labirinto - A Magia do Tempo</p>
+        
+        <span>O tabuleiro é muito simples, bem ilustrado e tem como base o labirinto visto no filme. Este é o labirinto que os jogadores devem percorrer para salvar o irmãozinho de Sarah. Cada jogo é diferente com os espaços em branco das cartas que estarão sendo preenchidos com os encontros mágicos e os monstros que são descritos no baralho de cartas que vem com o jogo, isto asseguram muita "rejogabilidade" e deixa o mesmo imprevisível, dando ao jogo a verdadeira sensação do "labirinto".</span>
+        <img src="assets/labp.png" alt="">
+        
+        <button class="voltar">VOLTAR</button>
+        <a href="https://www.lojameeplebrjogos.com.br/jims-henson-labyrinth-jogo-de-tabuleiro-edicao-de-colecionador" target="_blank">CONFIRA EM NOSSA LOJA</a>
+        
+    </div>
+</modal>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script type="text/javascript" src="assets/scripts/main.js"></script>

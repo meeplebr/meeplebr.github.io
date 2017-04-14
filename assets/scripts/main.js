@@ -25,5 +25,15 @@ $(document).ready(function(){
       
       $('#voltarsite').on('click', function(){
           window.open('https://meeplebr.com.br');
-      })
+      });
+      
+      $('modal .voltar').on('click', function(){
+    	$('modal').hide();
+      });
+      
+      
+      $('.saibamais').on('click', function(){
+         var modal = $(this).attr('name');
+         $("#" + modal).show();
+      });
 })
