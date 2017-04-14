@@ -34,7 +34,8 @@ Após a entrega do Terraforming Mars pretendemos começar a pré-venda do Orléa
 
 Então fiquem antenados aos nossos canais de comunicação Oficiais :
 - [Facebook da Meeple ](https://www.facebook.com/meeplebrjogos) 
-E este site! 
+
+- E este site! 
 
 Mais sobre novidades... 
 
