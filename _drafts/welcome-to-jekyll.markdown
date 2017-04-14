@@ -2,8 +2,11 @@
 title: Novo site Meeple BR Jogos!
 date: 2017-03-06 02:59:00 -03:00
 categories:
-- jekyll
-- update
+- Sr. Meeple
+tags:
+- novo site
+- meeple br
+- promoção
 layout: post
 ---
 
@@ -19,4 +22,29 @@ A ideia da Meeple BR Jogos é ser uma editora singular! Não que nossos amigos, 
 
 Nossa linha de jogos vai aumentar (e muito!!! Até gostaria de falar de muitas novidades que iremos lançar!!) Mas antes temos que garantir o suporte aos nossos clientes! Que seja trocando peças faltantes, que seja atendendo todos os e-mails e comunicação via nossos canais em mídia social ou até mesmo por aqui, em nosso novo site! 
 
-Então gostaríamos de pedir uma coisa: Em caso de qualquer problema, com regra, reposição de material, dúvida sobre alguma promoção (sim teremos muitas... você viu a promoção de inauguração do site? NÃO! Então veja na nossa página do facebook - [[CLIQUE AQUI!](https://www.facebook.com/meeplebrjogos)]  
+Sem maior delonga vamos as boas noticias! 
+
+Terraforming Mars estará em pré-venda com um preço especial! Tanto em nossa loja virtual quanto em nossos lojistas parceiros! 
+
+O jogo já está em final de produção e a entrega dele aqui para os compradores está prevista para JUNHO 2017! 
+
+Em breve irei postar sobre o assunto "Pré-Venda" e porque gostamos de faze-la! (Anotem o primeiro assunto "polêmico" do Sr. Meeple). 
+
+Após a entrega do Terraforming Mars pretendemos começar a pré-venda do Orléans!
+
+Então fiquem antenados aos nossos canais de comunicação Oficiais :
+- [Facebook da Meeple ](https://www.facebook.com/meeplebrjogos) 
+E este site! 
+
+Mais sobre novidades... 
+
+Teremos nesse nosso blog o Canal - Como se joga? - Com algumas dicas e até estratégias dos nossos jogos!  
+
+E, como é sempre bom estar deixar o publico com um "gostinho de quero mais" vou postar um enigma sobre um dos nossos próximos lançamentos... 
+
+- Me dizem que a guerra e conquista são necessárias, em nosso sangue está o mar e a necessidade de alcançar novos mundos, muitos abraçaram as valquírias e encontram o reconhecimento! Aos que sobrarem resta tentar mais uma vez! 
+
+Obrigado e nos veremos novamente! 
+
+Sr. Meeple - (O Enigmático)
+
