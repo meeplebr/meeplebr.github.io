@@ -20,7 +20,7 @@ Mas antes devemos começar... pelo começo!
 
 A ideia da Meeple BR Jogos é ser uma editora singular! Não que nossos amigos, parceiros e até concorrentes não o sejam, mas nós optamos e vamos seguir o nosso caminho, com transparência, informação, sempre dispostos a ajudar e acima de tudo garantir da melhor maneira o seu entretenimento! 
 
-Nossa linha de jogos vai aumentar (e muito!!! Até gostaria de falar de muitas novidades que iremos lançar!!) Mas antes temos que garantir o suporte aos nossos clientes! Que seja trocando peças faltantes, que seja atendendo todos os e-mails e comunicação via nossos canais em mídia social ou até mesmo por aqui, em nosso novo site! 
+Nossa linha de jogos vai aumentar (e muito!!! Até gostaria de falar das muitas novidades que iremos lançar!!) Mas antes temos que garantir o suporte aos nossos clientes! Que seja trocando peças faltantes, que seja atendendo todos os e-mails e comunicação via nossos canais em mídia social ou até mesmo por aqui, em nosso novo site! 
 
 Sem maior delonga vamos as boas noticias! 
 
