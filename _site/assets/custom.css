@@ -545,8 +545,8 @@ body *{
 }
 
 #parallax .container .box{
-        display: block;
-        margin: 20px auto;
+    display: block;
+    margin: 20px auto;
     
 }
 
@@ -583,14 +583,20 @@ body *{
 
 
 .blog-head{
-    height: 100px;
+    height: 200px;
     background: #222;
     color: #fff;
     font-size: 2em;
     text-align: center;
     padding-top: 50px;
     font-family: 'Ubuntu', sans-serif;
-    background-image: url('/assets/fundo_blog.png');
+    background-image: url('/assets/parallax.png');
+    background-size: cover;
+}
+
+time{
+    font-size: .6em;
+    opacity: .7;
 }
 
 #voltarsite{
@@ -615,3 +621,92 @@ body *{
     color: #fff;
 }
 
+
+modal{
+    position: fixed;
+    height: 100%;
+    background: rgba(0,0,0, .7);
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+modal .modal-content{
+    width: 27%;
+    background: #FFF;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+modal .modal-content ul{
+    font-size: 0.8em;
+    margin-bottom: 30px;
+}
+
+modal button, modal a{
+    border: 1px solid;
+    padding: 5px 10px;
+    background: #FFF;
+    outline: none;
+    cursor: pointer;
+}
+
+modal button:first-of-type:hover{
+    color: #FFF;
+    background: #000;
+}
+
+modal p{
+    font-weight: 800;
+    text-align: center;
+}
+
+modal a:visited{
+    color: #FFF
+}
+
+modal img{
+    margin-bottom: 10px;
+}
+
+modal a{
+    background: #8dc540;
+    color: #FFF;
+    float: right;
+}
+
+#embreve{
+    margin-top: 150px;
+}
+#embreve .container{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    width: 100%;
+}
+#embreve h1{
+    text-align: center;
+}
+
+#embreve img{
+    display: block;
+    margin: 0 auto;
+}
+
+.preview{
+    width: 100%;
+    text-align: center;
+}
+
+.preview a{
+    border: 1px solid;
+    padding: 10px 40px;
+    border-radius: 3px;
+    cursor: pointer;
+}
