@@ -36,4 +36,14 @@ $(document).ready(function(){
          var modal = $(this).attr('name');
          $("#" + modal).show();
       });
+      
+      if($('.post-list').find('li').size() < 10){
+          $('#vejamais').css({'display':'none'});
+          $('#blog + .page-content > .wrapper').css({'height':'100%'});
+          $('#blog + .page-content').css({'height':'100%'});
+      }
+      
+      if($('.post-list').find('li').size() > 9){
+          $('#embreve').css({'margin-top':'150px'});
+      }
 })
