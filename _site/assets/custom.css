@@ -887,3 +887,45 @@ modal a{
 modal .modal-content{
     width: 60%;
 }
+
+
+@media screen and (max-width: 490px){
+    #embreve .container .flex{
+        width: 100%;
+        padding: 0 0 100px 0 !important;
+    }
+    
+    .modal-content{
+        display: flex;
+        -webkit-display: flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        height: 80%;
+        width: 85% !important;
+        overflow-y: scroll;
+    }
+    
+    .modal-content .esq, .modal-content .dir {
+        padding: 0;
+        width: 100%;
+    }
+    
+    .modal-content .dir .btn{
+        position: relative;
+        text-align: center;
+    }
+    
+    .modal-content .dir .btn .voltar{
+        width: 80%;
+        display: block;
+        margin: 15px auto;
+    }
+    
+    .modal-content .dir .btn a{
+        width: 90% !important;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    
+}
