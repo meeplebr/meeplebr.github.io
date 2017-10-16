@@ -739,7 +739,7 @@ modal a{
 #embreve .container .flex {
     width: 33.3%;
     height: 250px;
-    margin: 20px 0;
+    margin: 80px 0;
     display: flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
