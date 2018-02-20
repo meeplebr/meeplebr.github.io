@@ -1,6 +1,11 @@
 ---
 title: Reposição - Terraforming Mars
 date: 2018-02-20 08:09:00 -03:00
+categories:
+- jogos de tabuleiro
+tags:
+- Terraforming Mars
+- reposição
 Field name: 'Reposição - https://goo.gl/Xier6j '
 ---
 
