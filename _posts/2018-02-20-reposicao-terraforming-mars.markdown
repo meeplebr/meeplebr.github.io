@@ -10,4 +10,4 @@ Abaixo você encontra um documento do Google Docs para preenchimento.
 
 Salientamos que é fundamental o correto preenchimento do pedido (todos os dados necessários) para o envio das cartas de reposição. 
  
-https://goo.gl/Xier6j
+https://goo.gl/27Yb7p
